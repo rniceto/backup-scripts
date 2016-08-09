@@ -7,7 +7,7 @@ kversion=`uname -r`
 
 find /admrede/backups -type f -mtime +10 -delete
 
-dpkg --get-selections > /admrede/backups/$date-fw02-sp-pacotes   #Mostra todas biblitotecas instaladas
-tar -cvzf /admrede/backups/$date-“Nome do servidor”.tgz /etc
+dpkg --get-selections > /admrede/backups/$date-"server-packages   #Mostra todas biblitotecas instaladas
+tar -cvzf /admrede/backups/$date-“Name Server”.tgz /etc
 
 

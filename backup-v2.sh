@@ -4,12 +4,9 @@
 #Variaveis
 data=$(date +%d-%m-%Y)
 localhost="samba"
-#blocos="976758784"
 origem="/etc /home "
 destino="/backup/$localhost-$data"
 ponto="/backup"
-dev="/dev/sdb1"
-#dev=$(/sbin/fdisk -l | /bin/grep $blocos | /usr/bin/awk {'print $1'})
 backupold=$(date --date "9 days ago" +%d-%m-%Y)
 log="/var/log/bkpdiario"
 

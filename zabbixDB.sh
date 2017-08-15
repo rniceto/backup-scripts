@@ -11,7 +11,7 @@ mysqldump -v -u root -"SENHA BANCO" "NOME BANCO" \
         --ignore-table="NOME BANCO".events \
         --ignore-table="NOME BANCO".history \
         --ignore-table="NOME BANCO".history_log \
-        --ignore-table="NOME BANCO"b.history_str \
+        --ignore-table="NOME BANCO".history_str \
         --ignore-table="NOME BANCO".history_text \
         --ignore-table="NOME BANCO".history_uint \
         --ignore-table="NOME BANCO".sessions \
